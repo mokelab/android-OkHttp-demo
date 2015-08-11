@@ -6,4 +6,5 @@
     <string name="url">URL</string>
     <string name="send">Send</string>
     <string name="http">http://</string>
+    <string name="body">Body</string>
 </resources>
