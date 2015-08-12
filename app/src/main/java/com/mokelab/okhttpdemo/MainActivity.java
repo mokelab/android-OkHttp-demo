@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
-            transaction.add(R.id.container, PostFragment.newInstance());
+            transaction.add(R.id.container, HeaderFragment.newInstance());
 
             transaction.commit();
         }
